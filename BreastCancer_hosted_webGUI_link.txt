@@ -1,0 +1,8 @@
+Name: [Student Name]
+Matric Number: [Matric Number]
+Machine Learning Algorithm Used: Logistic Regression
+Model Persistence Method: Joblib
+Live URL: [To be deployed]
+GitHub Repository: https://github.com/moladeji2302025-ctrl/Breast-Cancer-Prediction-System
+
+Note: This file should be updated with actual deployment details after deploying to Vercel or another hosting service.
