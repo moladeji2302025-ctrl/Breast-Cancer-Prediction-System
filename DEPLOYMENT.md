@@ -2,6 +2,19 @@
 
 This guide will help you deploy the Breast Cancer Prediction System to Vercel.
 
+## ✅ Deployment Error Fixed
+
+**Issue**: `uv add --active -r /vercel/path0/requirements.txt` failure
+
+**Resolution**: This issue has been fixed in the latest version:
+- ✅ Fixed requirements.txt formatting (removed empty line 7)
+- ✅ Added vercel.json configuration file
+- ✅ Added runtime.txt specifying Python 3.11
+- ✅ Updated package versions for compatibility
+- ✅ Added gunicorn for production deployment
+
+The repository is now ready for deployment on Vercel.
+
 ## Prerequisites
 
 - A Vercel account (free tier available)
