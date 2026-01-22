@@ -78,6 +78,5 @@ def health():
 if __name__ == '__main__':
     # For production, set debug=False and use a proper WSGI server
     # For development, you can set debug=True
-    import os
     debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
     app.run(debug=debug_mode, host='0.0.0.0', port=5000)
